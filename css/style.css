@@ -1,3 +1,10 @@
+/*
+
+Blaster Template
+
+http://www.templatemo.com/tm-472-blaster
+
+*/
 body
 {
 	background: #ffffff;
@@ -6,47 +13,60 @@ body
 	position: relative;
 }
 
-html,body {
-	width: 100%;
-	overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
-h1,h2,h3,h4 {
-	font-weight: bold;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
 }
 
 .heading {
-	font-size: 60px;
+  font-size: 35px;
+  color: rgb(189, 189, 5);
 }
 .subheading {
-	font-size: 14px;
-	font-weight: bold;
-	padding-bottom: 60px;
+  font-size: 40px;
+  color: #852a00;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.iso-section .smoothScroll {
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  background-color: #a25641;
 }
 .bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 p {
-	letter-spacing: 0px;
-	line-height: 28px;
+  letter-spacing: 0px;
+  line-height: 28px;
 }
 
 #about,
-#team, #contact {
-	padding-top: 100px;
-	padding-bottom: 100px;
+#team,
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #about .fa {
-	font-size: 28px;
-	min-width: 34px;
+  font-size: 28px;
+  min-width: 34px;
 }
 
 /* start navigation */
 .custom-navbar {
-    background: #ffffff;
-    margin-bottom: 0;
+  background: #ffffff;
+  margin-bottom: 0;
 }
 
 .custom-navbar .navbar-brand  {
@@ -55,10 +75,10 @@ p {
 	font-size: 20px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #55acee;
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
+  background: #55acee;
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff;
 }
 .custom-navbar .nav li a {
     color: #ffffff;
@@ -66,7 +86,7 @@ p {
     font-weight: 500;
     padding-right: 20px;
     padding-left: 20px;
-	transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav li a.active {
   color: #E8AF37;
@@ -78,15 +98,15 @@ p {
   	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav > li > a:focus {
-  	background-color: transparent;
-  	outline: none;
+  background-color: transparent;
+  outline: none;
 }
 .custom-navbar .nav li.active > a {
     /* background-color: #FFD321; */
 }
 .custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
+  border: none;
+  padding-top: 10px;
 }
 .custom-navbar .navbar-toggle .icon-bar {
     background: #FFD321;
@@ -108,7 +128,7 @@ p {
 
 /* about section */
 #about .col-md-4 .fa {
-  background: #FFD321;
+  background: #ffd321;
   border-radius: 50%;
   color: #ffffff;
   font-size: 32px;
@@ -138,15 +158,23 @@ p {
   height: 6px;
 }
 #about .progress .progress-bar-primary {
-  background: #FFD321;
+  background: #ffd321;
 }
-
+/*Our Works  */
+#our img {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+#our h3 {
+  font-size: 12px;
+  color: #852a00;
+}
 /* portfolio section */
 #portfolio {
   padding-top: 100px;
   background: #f9f9f9;
   text-align: center;
-  }
+}
 #portfolio .container {
   width: 100%;
   padding: 0;
@@ -165,62 +193,62 @@ p {
 }
 /* FILTER CSS */
 .filter-wrapper {
-    width: 100%;
-    margin: 40px 0 24px 0;
-    overflow: hidden;
-    text-align: center;
+  width: 100%;
+  margin: 40px 0 24px 0;
+  overflow: hidden;
+  text-align: center;
 }
 .filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
+  display: inline-block;
+  margin: 4px;
 }
 .filter-wrapper li a {
-    color: #999999;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 8px 17px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
+  color: #999999;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 17px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
 }
 .filter-wrapper li .selected,
 .filter-wrapper li a:focus,
 .filter-wrapper li a:hover {
-    background: #FFD321;
-    color: #ffffff;
-    outline: none;
-  }
+  background: #ffd321;
+  color: #ffffff;
+  outline: none;
+}
 
 /* ISOTOPE BOX CSS */
 .iso-box-section {
-    width: 100%;
+  width: 100%;
 }
 .iso-box-wrapper {
-    width: 100%;
-    padding: 0;
-    clear: both;
-    position: relative;
+  width: 100%;
+  padding: 0;
+  clear: both;
+  position: relative;
 }
 .iso-box {
-    position: relative;
-    min-height: 50px;
-    float: left;
-    overflow: hidden;
-    margin-bottom: 20px;
+  position: relative;
+  min-height: 50px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 .iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 .fluid-img {
   width: 100%;
@@ -241,8 +269,12 @@ p {
 }
 
 /* contact section */
+#contact h1 {
+  color: #eeeeee;
+  font-size: 25px;
+}
 #contact {
-  background: #f9f9f9;
+  background: #501b1b;
   text-align: center;
 }
 #contact .fa {
@@ -276,11 +308,13 @@ p {
 #contact textarea {
   height: 170px;
 }
-.contact-info-box h3 { font-size: 16px; }
+.contact-info-box h3 {
+  font-size: 16px;
+}
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') no-repeat;
+  background: url("../images/footer-bg.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -312,7 +346,7 @@ footer {
   margin-right: 10px;
 }
 .social-icon li a:hover {
-  background: #FFD321;
+  background: #ffd321;
 }
 
 /* copyright section */
@@ -326,12 +360,12 @@ footer {
   padding-top: 20px;
 }
 #copyright a {
-	color: #fff;
+  color: #fff;
 }
 #copyright a:hover {
-	color: #FFD321;
-	text-decoration: none;
-	transition: all 0.4s ease-in-out;
+  color: #ffd321;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
 }
 #copyright .fa {
   background: #383838;
@@ -346,7 +380,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 #copyright .fa:hover {
-  background: #FFD321;
+  background: #ffd321;
   color: #000;
 }
 
@@ -356,10 +390,10 @@ footer {
     #portfolio .col-md-4 {
       width: 33.333%;
     }
-  }    
+  }
 }
 
-@media ( max-width: 980px ) {
+@media (max-width: 980px) {
   .custom-navbar .navbar-brand {
     font-size: 24px;
   }
@@ -372,8 +406,12 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .contact-info-box { margin-bottom: 20px; }
-  .contact-info-box:last-child { margin-bottom: 0; }
+  .contact-info-box {
+    margin-bottom: 20px;
+  }
+  .contact-info-box:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 450px) {
