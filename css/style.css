@@ -107,6 +107,19 @@ p {
 }
 
 /* about section */
+#about {
+  position: relative;
+}
+#about img.circle1 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+#about img.circle2 {
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
 #about .col-md-4 .fa {
   background: #FFD321;
   border-radius: 50%;
@@ -139,6 +152,23 @@ p {
 }
 #about .progress .progress-bar-primary {
   background: #FFD321;
+}
+#about a.smoothScroll{
+  background-color: #A25641;
+  border: 1px solid #A25641;
+  color: #ffffff;
+  padding: 13px 36px;
+}
+#about h3 {
+  color: #E8AF37;
+}
+
+#about h1{
+  color: #A25641;
+}
+
+#about p{
+  color: #8F8F8F;
 }
 
 /* portfolio section */
