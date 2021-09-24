@@ -313,15 +313,6 @@ p {
 }
 
 /* footer section */
-footer {
-  background: url("../images/footer-bg.jpg") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
 .social-icon {
   padding: 0;
   text-align: center;
