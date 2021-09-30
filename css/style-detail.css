@@ -339,11 +339,7 @@ p {
   top: 500px;
   left: 0;
 }
-#detail img.circle5 {
-  position: absolute;
-  top: 700px;
-  right: 250px;
-}
+
 
 #detail .col-md-4 .fa {
   background: #FFD321;
@@ -397,7 +393,18 @@ p {
   color: #8F8F8F;
 }
 
-
+.container .circle5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+}
+.container .circle6 {
+  position: absolute;
+  top: 700px;
+  width: 120px;
+  right: 0;
+}
 
 /* portfolio section */
 #portfolio {
